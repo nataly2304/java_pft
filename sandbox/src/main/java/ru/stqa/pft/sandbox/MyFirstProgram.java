@@ -17,15 +17,15 @@ public class MyFirstProgram {
     double q1 = 6;
     double p2 = 5;
     double q2 = 6;
-    double dis = Math.sqrt(Math.pow((p1 - q1), 2) + Math.pow((p2 - q2), 2));
-    System.out.println("Расстояние между двумя точками " + "(p1, q1) = " + "(" + p1 + ", " + q1 + ")" + " и " + "(p2, q2) = " + "(" + p2 + ", " + q2 + ")" + " = " + dis);
+    //double dis = Math.sqrt(Math.pow((p1 - q1), 2) + Math.pow((p2 - q2), 2));
+    System.out.println("Расстояние между двумя точками " + "(p1, q1) = " + "(" + p1 + ", " + q1 + ")" + " и " + "(p2, q2) = " + "(" + p2 + ", " + q2 + ")" + " = " + distanse(p1, p2, q1, q2));
   }
 
   public static void hello(String somebody) {
     System.out.println("Hello, " + somebody + "!");
   }
 
- /* public static double distanse(double p1; double p2) {
-
-  }*/
+  public static double distanse(double p1, double p2, double q1, double q2) {
+    return Math.sqrt(Math.pow((p1 - q1), 2) + Math.pow((p2 - q2), 2));
+  }
 }
