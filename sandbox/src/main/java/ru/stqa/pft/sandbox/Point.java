@@ -1,6 +1,8 @@
 package ru.stqa.pft.sandbox;
 
 public class Point {
-  //public p1;
- // public p2;
+  public double p1;
+  public double p2;
+  public double q1;
+  public double q2;
 }
