@@ -10,9 +10,9 @@ public class ApplicationManager {
 
   FirefoxDriver wd;
 
-  private GroupHelper sessionHelper;
-  private NavigationHelper navigationHelper;
   private GroupHelper groupHelper;
+  private NavigationHelper navigationHelper;
+  private SessionHelper sessionHelper;
 
   public static boolean isAlertPresent(FirefoxDriver wd) {
       try {
